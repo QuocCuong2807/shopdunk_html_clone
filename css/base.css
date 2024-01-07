@@ -1,0 +1,249 @@
+:root {
+    --header-color: #515154;
+    --header-text-color: #D2D2D7;
+    --footer-text-color: #86868b;
+    --footer-bottom-color:#565656;
+    --link-color: #0066CC;
+    --white-color: #fff;
+    --black-color: #000;
+}
+
+*{
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.mb-24{
+    margin-bottom: 24px;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto; 
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.grid__col-33 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 33.333%;
+}
+
+.grid__col-3 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 25%;
+}
+
+.grid__col-2-4 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 20%;
+}
+
+.grid__col-6 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 50%;
+}
+
+.grid__col-2{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 16.6667%;
+}
+
+.grid__col-10{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 83.3334%;
+}
+
+.row-separate {
+    padding-bottom: 60px;
+}
+
+.carousel {
+    margin-top: -10px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.product-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.6rem;
+    margin-bottom: 30px;
+}
+
+.product-img {
+    width: 100%;
+}
+
+.content-limit {
+    background-color: var(--white-color);
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 0px #e0e0e0;
+    overflow: hidden;
+    margin-bottom: 12px;
+}
+
+.content-limit:hover {
+    box-shadow: 1px 1px 28px 1px #e1e1e1;
+}
+
+.product-name{
+    padding-left: 30px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: var(--black-color);display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+.product-name--up-line-height {
+    line-height: 4.2rem;
+}
+
+.product-price{
+    padding-left: 30px;
+    padding-bottom: 20px;
+    font-size: 1.2rem;
+    color: var(--link-color);
+    font-weight: 700;
+}
+
+.watch-more-btn {
+    display: inline-block;
+    padding: 10px 48px;
+    font-size: 1.4rem;
+    border: 1px solid var(--link-color);
+    border-radius: 7px;
+}
+
+.watch-more-btn:hover {
+    background-color: var(--link-color);
+    color: var(--white-color);
+}
+
+.btn-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.go-icon {
+    margin-left: 5px;
+}
+
+.product__price-container {
+    display: flex;
+}
+
+.product-price--old {
+    color: #86868b;
+    text-decoration: line-through;
+}
+
+.header-active {
+    background-color: #444;
+}
+
+.filter-active {
+    color: var(--link-color);
+}
+
+.filter-active::after {
+    content: "";
+    position: absolute;
+    background-color: var(--link-color);
+    width: 100%;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    display: none;
+}
+
+.product-brand {
+    font-size: 4rem;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.product-under {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+.product-under__img-contain {
+    padding-left: 40px;
+}
+
+.product-under__content{
+    padding-left: 40px;
+}
+
+.product-under__content-heading{
+    font-size: 2.2rem;
+}
+
+.product-under__content-links{
+    font-size: 1.4rem;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.to-top__btn {
+    background-color: var(--white-color);
+    position: fixed;
+    bottom: 16px;
+    left: 32px;
+    font-size: 3.2rem;
+    border-radius: 50%;
+    padding: 0 10px;
+    color: var(--footer-text-color);
+    display: none;
+    cursor: pointer;
+}
+
+.to-top__btn--active {
+    display: block;
+    box-shadow: 1px 2px 4px 4px #e0e0e0;
+}
+
+/* key frame */
+
+@-webkit-keyframes slide-down {
+    0% {
+        opacity: 0;
+    }
+    20%{
+        opacity: 1;
+    }
+}

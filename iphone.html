@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/1e6002b7a6.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="grid">
+                <div class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-items">
+                            <a href="./index.html" class="header__navbar-items-links--img">
+                                <img src="./img/header-img.svg" alt="" class="header-logo">
+                            </a>
+                        </li>
+                        <li class="header__navbar-items">
+                            <a href="#" class="header__navbar-items-links header-active">iPhone</a>
+                        </li>
+                        <li class="header__navbar-items">
+                            <a href="./ipad.html" class="header__navbar-items-links">iPad</a>
+                        </li>
+                        <li class="header__navbar-items">
+                            <a href="./mac.html" class="header__navbar-items-links">Mac</a>
+                        </li>
+                        <li class="header__navbar-items">
+                            <a href="./watch.html" class="header__navbar-items-links">Watch</a>
+                        </li>
+                        <li class="header__navbar-items">
+                            <a href="./audio.html" class="header__navbar-items-links">Âm Thanh</a>
+                        </li>
+                        <li class="header__navbar-items">
+                            <a href="./service.html" class="header__navbar-items-links">Phụ Kiện</a>
+                        </li>
+                        <li class="header__navbar-items">
+                            <a href="./service.html" class="header__navbar-items-links">Dịch Vụ</a>
+                        </li>
+                        <li class="header__navbar-items">
+                            <a href="#" onclick="window.location.href='https://tin.shopdunk.com/khuyen-mai'" class="header__navbar-items-links">Khuyến Mại</a>
+                        </li>
+                        <li class="header__navbar-items">
+                            <a href="#" onclick="window.location.href='https://tragop.shopdunk.com/'" class="header__navbar-items-links">Trả Góp</a>
+                        </li>
+                        <li class="header__navbar-items">
+                            <a href="#" class="header__navbar-items-links-icon">
+                                <i class="fa-solid fa-magnifying-glass header__search-icon"></i>
+                            </a>
+                        </li>
+                        <li class="header__navbar-items">
+                            <a href="#" class="header__navbar-items-links-icon">
+                                <i class="fa-solid fa-bag-shopping header__bag-icon"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="app">
+            <div class="grid">
+                <h1 class="product-brand">iPhone</h1>
+                <div id="demo" class="carousel slide" data-ride="carousel">
+
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                      <li data-target="#demo" data-slide-to="0" class="active"></li>
+                      <li data-target="#demo" data-slide-to="1"></li>
+                      <li data-target="#demo" data-slide-to="2"></li>
+                      <li data-target="#demo" data-slide-to="3"></li>
+                      <li data-target="#demo" data-slide-to="4"></li>
+                      <li data-target="#demo" data-slide-to="5"></li>
+                      <li data-target="#demo" data-slide-to="6"></li>
+                      <li data-target="#demo" data-slide-to="7"></li>
+                    </ul>
+                  
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="slider-img" src="./img/slider1.webp">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="slider-img" src="./img/slider2.webp">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="slider-img" src="./img/slider3.webp">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="slider-img" src="./img/slider4.webp">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="slider-img" src="./img/slider5.webp">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="slider-img" src="./img/slider6.webp">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="slider-img" src="./img/slider7.webp">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="slider-img" src="./img/slider8.webp">
+                      </div>
+                    </div>
+                  
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </a>
+                  
+                </div>
+            </div>
+            <div class="product-items">
+                <div class="grid">
+                    <div class="product-filter">
+                        <ul class="product-filter-list">
+                            <li class="product-filter-items ">
+                                <span class="product-filter-items__links filter-active" onclick="changeProduct('all', this)">Tất cả</span>
+                            </li>
+                            <li class="product-filter-items">
+                                <span class="product-filter-items__links" onclick="changeProduct('iPhone13', this)">iPhone 13</span>
+                            </li>
+                            <li class="product-filter-items">
+                                <span class="product-filter-items__links" onclick="changeProduct('iPhone12', this)">iPhone 12</span>
+                            </li>
+                            <li class="product-filter-items">
+                                <span class="product-filter-items__links" onclick="changeProduct('iPhone11', this)">iPhone 11</span>
+                            </li>
+                            <li class="product-filter-items">
+                                <span class="product-filter-items__links" onclick="changeProduct('iPhoneSE', this)">iPhone SE</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="all" class="grid__row row-separate">
+                        <div class="grid__col-3">
+                            <a class="iPhone-content content-limit">
+                                <img src="./img/iPhone-13-pro-max.webp" alt="" class="product-img">
+                                <h3 class="product-name">iPhone 13 Pro Max</h3>
+                                <p href="#" class="product-price">Giá từ 27.390.000đ</p>
+                                
+                            </a>
+                        </div>
+                        <div class="grid__col-3">
+                            <a class="iPhone-content content-limit">
+                                <img src="./img/iphone-13.webp" alt="" class="product-img">
+                                <h3 class="product-name">iPhone 13</h3>
+                                <p href="#" class="product-price">Giá từ 18.990.000đ</p>
+                            </a>
+                        </div>
+                        <div class="grid__col-3">
+                            <a class="iPhone-content content-limit">
+                                <img src="./img/iPhone-12-xanh.webp" alt="" class="product-img">
+                                <h3 class="product-name">iPhone 12</h3>
+                                <p href="#" class="product-price">Giá từ 15.790.000đ</p>
+                            </a>
+                        </div>
+                        <div class="grid__col-3">
+                            <a class="iPhone-content content-limit">
+                                <img src="./img/iPhone-11-Green.webp" alt="" class="product-img">
+                                <h3 class="product-name">iPhone 11</h3>
+                                <p href="#" class="product-price">Giá từ 10.590.000đ</p>
+                            </a>
+                        </div>
+                        <div class="grid__col-3">
+                            <a class="iPhone-content content-limit">
+                                <img src="./img/ip13mini-1.png" alt="" class="product-img">
+                                <h3 class="product-name">iPhone 13 mini</h3>
+                                <p href="#" class="product-price">Giá từ 18.590.000đ</p>
+                            </a>
+                        </div>
+                        <div class="grid__col-3">
+                            <a class="iPhone-content content-limit">
+                                <img src="./img/ip13pro-1-1.png" alt="" class="product-img">
+                                <h3 class="product-name">iPhone 11 Pro Max</h3>
+                                <p href="#" class="product-price">Giá từ 24.490.000đ</p>
+                            </a>
+                        </div>
+                        <div class="grid__col-3">
+                            <a class="iPhone-content content-limit">
+                                <img src="./img/ipse.png" alt="" class="product-img">
+                                <h3 class="product-name">iPhone SE</h3>
+                                <p href="#" class="product-price">Giá từ 10.990.000đ</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div id="iPhone13" class="grid__row row-separate">
+                        <div class="grid__col-3">
+                            <a class="iPhone-content content-limit">
+                                <img src="./img/iPhone-13-pro-max.webp" alt="" class="product-img">
+                                <h3 class="product-name">iPhone 13 Pro Max</h3>
+                                <p href="#" class="product-price">Giá từ 27.390.000đ</p>
+                                
+                            </a>
+                        </div>
+                        <div class="grid__col-3">
+                            <a class="iPhone-content content-limit">
+                                <img src="./img/iphone-13.webp" alt="" class="product-img">
+                                <h3 class="product-name">iPhone 13</h3>
+                                <p href="#" class="product-price">Giá từ 18.990.000đ</p>
+                            </a>
+                        </div>
+                        <div class="grid__col-3">
+                            <a class="iPhone-content content-limit">
+                                <img src="./img/ip13mini-1.png" alt="" class="product-img">
+                                <h3 class="product-name">iPhone 13 mini</h3>
+                                <p href="#" class="product-price">Giá từ 18.590.000đ</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div id="iPhone12" class="grid__row row-separate">
+                        <div class="grid__col-3">
+                            <a class="iPhone-content content-limit">
+                                <img src="./img/iPhone-12-xanh.webp" alt="" class="product-img">
+                                <h3 class="product-name">iPhone 12</h3>
+                                <p href="#" class="product-price">Giá từ 15.790.000đ</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div id="iPhone11" class="grid__row row-separate">
+                        <div class="grid__col-3">
+                            <a class="iPhone-content content-limit">
+                                <img src="./img/ip13pro-1-1.png" alt="" class="product-img">
+                                <h3 class="product-name">iPhone 11 Pro Max</h3>
+                                <p href="#" class="product-price">Giá từ 24.490.000đ</p>
+                            </a>
+                        </div>
+                        <div class="grid__col-3">
+                            <a class="iPhone-content content-limit">
+                                <img src="./img/iPhone-11-Green.webp" alt="" class="product-img">
+                                <h3 class="product-name">iPhone 11</h3>
+                                <p href="#" class="product-price">Giá từ 10.590.000đ</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div id="iPhoneSE" class="grid__row row-separate">
+                        <div class="grid__col-3">
+                            <a class="iPhone-content content-limit">
+                                <img src="./img/ipse.png" alt="" class="product-img">
+                                <h3 class="product-name">iPhone SE</h3>
+                                <p href="#" class="product-price">Giá từ 10.990.000đ</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="grid__row row-separate">
+                        <div class="grid__col-6">
+                            <div href="#" class="product-under content-limit">
+                                <a href="#" class="product-under__img-contain">
+                                    <img src="./img/findIP.webp" alt="" class="product-under__img">
+                                </a>
+                                <div class="product-under__content">
+                                    <h3 class="product-under__content-heading">Tìm iPhone <br> phù hợp với bạn</h3>
+                                    <a href="#" class="product-under__content-links">
+                                        So sánh các iPhone
+                                        <i class="fa-solid fa-angle-right go-icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__col-6">
+                            <div href="#" class="product-under content-limit">
+                                <a href="#" class="product-under__img-contain">
+                                    <img src="./img/acs.webp" alt="" class="product-under__img">
+                                </a>
+                                <div class="product-under__content">
+                                    <h3 class="product-under__content-heading">Phụ kiện iPhone <br>thường mua kèm</h3>
+                                    <a href="#" class="product-under__content-links">
+                                        tìm phụ kiện iPhone
+                                        <i class="fa-solid fa-angle-right go-icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__row row-separate">
+                        <div class="product-description">
+                            <h2 class="product-description__heading">1. Lịch sử hình thành và phát triển của iPhone</h2>
+                            <p class="product-description__body">iPhone là dòng điện thoại thông minh được phát triển từ Apple Inc, được ra mắt lần đầu tiên bởi Steve Jobs và mở bán năm 2007. Bên cạnh tính năng của một máy điện thoại thông thường, iPhone còn được trang bị màn hình cảm ứng, camera, khả năng chơi nhạc và chiếu phim, trình duyệt web,… Phiên bản thứ hai là iPhone 3G ra mắt tháng 7 năm 2008, được trang bị thêm hệ thống định vị toàn cầu, mạng 3G tốc độ cao.
+                                <br>
+                                <br>
+                                Trải qua 15 năm tính đến nay đã có đến 34 mẫu iPhone được sản xuất từ dòng 2G cho đến iPhone 13 Pro Max và Apple là một trong những thương hiệu điện thoại được yêu thích và sử dụng phổ biến nhất trên thế giới.
+                            </p>
+                            <h2 class="product-description__heading">2. iPhone có những mã máy nào?</h2>
+                            <p class="product-description__body">Những chiếc iPhone do Apple phân phối tại thị trường nước nào thì sẽ mang mã của nước đó. 
+                                <br>
+                                Ví dụ:
+                            </p>
+                            <ul class="product-description-list">
+                                <li class="product-description__items">LL: Mỹ</li>
+                                <li class="product-description__items">ZA: Singapore</li>
+                                <li class="product-description__items">TH: Thái Lan</li>
+                                <li class="product-description__items">JA: Nhật Bản</li>
+                            </ul>
+                            <p class="product-description__body">Những mã này xuất hiện tại Việt Nam đều là hàng xách tay, nhập khẩu. Còn tại Việt Nam, iPhone sẽ được mang mã VN/A. Tất cả các mã này đều là hàng chính hãng phân phối của Apple. Lợi thế khi bạn sử dụng iPhone mã VN/A đó là chế độ bảo hành tốt hơn với 12 tháng theo tiêu chuẩn của Apple.</p>
+                            <p class="product-description__body">iPhone của bạn sẽ được bảo hành tại tất cả các trung tâm bảo hành Apple tại Việt Nam, một số mã quốc tế bị từ chối bảo hành và phải đem ra các trung tâm bảo hành Apple tại nước ngoài. Rất là phức tạp đúng không nào?</p>
+                            <h2 class="product-description__heading">3. Apple đã khai tử những dòng iPhone nào?</h2>
+                            <p class="product-description__body">Tính đến nay, Apple đã khai tử (ngừng sản xuất) các dòng iPhone đời cũ bao gồm: iPhone 2G, iPhone 3G, iPhone 4, iPhone 5 series, iPhone 6 series, iPhone 7 series, iPhone 8 series, iPhone X series, iPhone SE (thế hệ 1), iPhone SE (thế hệ 2), iPhone 11 Pro, iPhone 11 Pro Max, iPhone 12 Pro, iPhone 12 Pro Max.</p>
+                            <h2 class="product-description__heading">4. ShopDunk cung cấp những dòng iPhone nào?</h2>
+                            <p class="product-description__body">ShopDunk là một trong những thương hiệu bán lẻ được Apple uỷ quyền tại Việt Nam, đáp ứng được các yêu cầu khắt khe từ Apple như: dịch vụ kinh doanh, dịch vụ chăm sóc khách hàng, vị trí đặt cửa hàng,…</p>
+                            <p class="product-description__body">Những chiếc iPhone do Apple Việt Nam phân phối tại nước ta đều mang mã VN/A và được bảo hành 12 tháng theo theo tiêu chuẩn tại các trung tâm bảo hành Apple. Các dòng iPhone được cung cấp tại ShopDunk gồm: iPhone 11, iPhone 12, iPhone 12 mini, iPhone 13 series, iPhone SE 3 (2022). </p>
+                            <ul class="product-description-list">
+                                <li class="product-description__items">iPhone 11 được trang bị màn hình LCD và không hỗ trợ HDR, nâng cấp với chế độ chụp đêm Night Mode cùng Deep Fusion. Camera trước được nâng độ phân giải từ 7MP lên thành 12MP. Được trang bị chip A13 Bionic và hỗ trợ công nghệ WiFi 6. Với 6 màu sắc bắt mắt: Đen, Trắng, Xanh Mint, Đỏ, Vàng, Tím. </li>
+                                <li class="product-description__items">iPhone 12 mini, iPhone 12 là những chiếc iPhone đầu tiên của hãng hỗ trợ mạng di động 5G. Apple đã thay đổi thiết kế của iPhone từ khung viền bo tròn thành khung viền vuông vức như những dòng iPhone 5 và sử dụng mặt kính trước Ceramic Shield. Ngoài ra, hộp của thiết bị iPhone 12 và các dòng iPhone sau đều đã được loại bỏ củ sạc.</li>
+                                <li class="product-description__items">Tháng 9 năm 2021, Apple đã chính thức ra mắt 4 chiếc iPhone mới của hãng bao gồm iPhone 13 mini, iPhone 13, iPhone 13 Pro, iPhone 13 Pro Max. Các cụm Camera trên bộ 4 iPhone mới của Apple đều to hơn một chút so với thế hệ tiền nhiệm và phần tai thỏ ở mặt trước cũng được làm nhỏ hơn. Đối với iPhone 13 Pro và iPhone 13 Pro Max, Apple đã nâng cấp bộ nhớ tối đa của máy lên đến 1TB. Đi cùng với đó là tần số quét của dòng iPhone 13 cũng đã được nâng cấp lên 120Hz.</li>
+                                <li class="product-description__items">iPhone SE thế hệ 3 (còn gọi là iPhone SE 3 hay iPhone SE 2022) được Apple công bố vào tháng 3 năm 2022, kế nhiệm iPhone SE 2. Đây là một phần của iPhone thế hệ thứ 15, cùng với iPhone 13 và iPhone 13 Pro. Thế hệ thứ 3 có kích thước và yếu tố hình thức của thế hệ trước, trong khi các thành phần phần cứng bên trong được lựa chọn từ dòng iPhone 13, bao gồm cả hệ thống trên chip A15 Bionic.</li>
+                            </ul>
+                            <h2 class="product-description__heading">5. Mua iPhone giá tốt nhất tại ShopDunk</h2>
+                            <p class="product-description__body">ShopDunk là đại lý uỷ quyền Apple tại Việt Nam với hệ thống 40 cửa hàng trên toàn quốc, trong đó có 11 Mono Store. Đến nay, ShopDunk đã trở thành điểm dừng chân lý tưởng cho iFans nói chung và thế hệ GenZ nói riêng bởi độ chuẩn và chất. Không gian thiết kế và bài trí sản phẩm theo tiêu chuẩn của Apple, chia theo từng khu vực rõ ràng, bàn trải nghiệm rộng rãi và đầy đủ sản phẩm.</p>
+                            <br>
+                            <p class="product-description__body">Tại ShopDunk luôn có mức giá tốt nhất cho người dùng cùng với nhiều chương trình hấp dẫn diễn ra liên tục trong tháng. Hãy đến với chúng tôi và trải nghiệm ngay những mẫu iPhone mới nhất với đội ngũ chuyên viên tư vấn được đào tạo bài bản từ Apple, sẵn sàng hỗ trợ bạn về sản phẩm, kỹ thuật hay các công nghệ mới nhất từ Apple.</p>
+                        </div>
+                    </div>
+                    <section class="infor-section">
+                        <div class="grid">
+                            <div class="infor-container">
+                                <h3 class="infor-title">Đăng ký nhận tin từ ShopDunk</h3>
+                                <p class="infor-body">Thông tin sản phẩm mới nhất và chương trình khuyến mãi</p>
+                            </div>
+                            <form action="" method="post">
+                                <input placeholder="Email của bạn" type="email" class="infor-input">
+                                <a href="#" class="sign-up__btn">Đăng ký</a>
+                            </form>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="grid">
+                <div class="grid__row footer-separate">
+                    <div class="grid__col-2-4">
+                        <div class="footer-introduce__container">
+                            <img src="./img/header-img.svg" alt="">
+                            <p class="footer-introduce">Năm 2020, ShopDunk trở thành đại lý ủy quyền của Apple. Chúng tôi phát triển chuỗi cửa hàng tiêu chuẩn và Apple Mono Store nhằm mang đến trải nghiệm tốt nhất về sản phẩm và dịch vụ của Apple cho người dùng Việt Nam.</p>
+                            <a href="#" class="footer-social__links">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 50 50" fill="#fff"><circle cx="25" cy="25" r="24" stroke="#515154" stroke-width="2"></circle><path d="M26.397 33.9972V25.8012H29.162L29.573 22.5922H26.397V20.5482C26.397 19.6222 26.655 18.9882 27.984 18.9882H29.668V16.1272C28.8487 16.0394 28.0251 15.997 27.201 16.0002C24.757 16.0002 23.079 17.4922 23.079 20.2312V22.5862H20.332V25.7952H23.085V33.9972H26.397Z" fill="#2B6AB4"></path></svg>
+                            </a>
+                            <a href="#" class="footer-social__links">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 50 50" fill="#fff"><circle cx="25" cy="25" r="24" stroke="#515154" stroke-width="2"></circle><path d="M26.6125 22.2536V21.6686H28.2962V29.8872H27.3338C27.1432 29.8875 26.9603 29.8093 26.8251 29.6697C26.69 29.5301 26.6135 29.3404 26.6125 29.1423V29.1436C25.9097 29.6787 25.061 29.9665 24.19 29.9652C23.1017 29.9652 22.058 29.5158 21.2882 28.7157C20.5184 27.9156 20.0857 26.8304 20.085 25.6986C20.0857 24.5668 20.5184 23.4816 21.2882 22.6815C22.058 21.8814 23.1017 21.432 24.19 21.432C25.0606 21.431 25.9088 21.7188 26.6113 22.2536H26.6125V22.2536ZM19.6488 19.027V19.2935C19.6488 19.7901 19.585 20.1957 19.2737 20.6715L19.2363 20.7157C19.1326 20.8366 19.0317 20.9602 18.9338 21.0862L13.53 28.14H19.6488V29.1384C19.6488 29.2368 19.6301 29.3343 19.5938 29.4253C19.5576 29.5162 19.5044 29.5988 19.4374 29.6683C19.3704 29.7379 19.2909 29.793 19.2034 29.8306C19.1159 29.8681 19.0222 29.8874 18.9275 29.8872H11V29.4166C11 28.8407 11.1375 28.5833 11.3125 28.3155L17.0712 20.899H11.24V19.027H19.65H19.6488ZM30.3375 29.8872C30.1784 29.8872 30.0258 29.8215 29.9132 29.7044C29.8007 29.5874 29.7375 29.4287 29.7375 29.2632V19.027H31.5387V29.8872H30.3375V29.8872ZM36.8663 21.38C37.4089 21.3798 37.9463 21.4908 38.4478 21.7067C38.9492 21.9225 39.4049 22.2389 39.7887 22.6379C40.1726 23.0368 40.4771 23.5105 40.685 24.0319C40.8928 24.5533 40.9998 25.1121 41 25.6765C41.0002 26.2409 40.8934 26.7998 40.6859 27.3213C40.4784 27.8428 40.1741 28.3167 39.7905 28.7159C39.4069 29.1151 38.9514 29.4318 38.4501 29.648C37.9488 29.8641 37.4114 29.9754 36.8687 29.9756C35.7727 29.9759 34.7215 29.5235 33.9463 28.7177C33.171 27.912 32.7353 26.8189 32.735 25.6791C32.7347 24.5393 33.1697 23.446 33.9445 22.6397C34.7193 21.8335 35.7702 21.3803 36.8663 21.38V21.38ZM24.1913 28.2089C24.5129 28.2165 24.8328 28.1572 25.1322 28.0344C25.4315 27.9117 25.7042 27.7279 25.9343 27.494C26.1644 27.2601 26.3472 26.9807 26.4721 26.6723C26.5969 26.3638 26.6612 26.0326 26.6612 25.6979C26.6612 25.3633 26.5969 25.0321 26.4721 24.7236C26.3472 24.4152 26.1644 24.1358 25.9343 23.9019C25.7042 23.668 25.4315 23.4842 25.1322 23.3615C24.8328 23.2387 24.5129 23.1794 24.1913 23.187C23.5604 23.2019 22.9603 23.473 22.5192 23.9423C22.0781 24.4116 21.8312 25.0417 21.8312 25.6979C21.8312 26.3542 22.0781 26.9843 22.5192 27.4536C22.9603 27.9229 23.5604 28.194 24.1913 28.2089V28.2089ZM36.8663 28.205C37.5111 28.205 38.1295 27.9386 38.5854 27.4644C39.0414 26.9902 39.2975 26.3471 39.2975 25.6765C39.2975 25.0059 39.0414 24.3628 38.5854 23.8886C38.1295 23.4144 37.5111 23.148 36.8663 23.148C36.2214 23.148 35.603 23.4144 35.1471 23.8886C34.6911 24.3628 34.435 25.0059 34.435 25.6765C34.435 26.3471 34.6911 26.9902 35.1471 27.4644C35.603 27.9386 36.2214 28.205 36.8663 28.205V28.205Z" fill="#2288FF"></path></svg>
+                            </a>
+                            <a href="#" class="footer-social__links">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="50" viewBox="0 0 50 50" fill="#fff"><circle cx="25" cy="25" r="24" stroke="#515154" stroke-width="2"></circle><path d="M35.52 20.3432C35.389 19.8894 35.1323 19.4756 34.7756 19.1432C34.4188 18.8108 33.9744 18.5714 33.4869 18.449C31.6926 18 24.5 18 24.5 18C24.5 18 17.3074 18 15.5131 18.4467C15.0254 18.5687 14.5808 18.8079 14.2239 19.1404C13.8671 19.4729 13.6105 19.8868 13.48 20.3408C13 22.0127 13 25.5 13 25.5C13 25.5 13 28.9873 13.48 30.6568C13.7444 31.5788 14.5248 32.3049 15.5131 32.551C17.3074 33 24.5 33 24.5 33C24.5 33 31.6926 33 33.4869 32.551C34.4778 32.3049 35.2556 31.5788 35.52 30.6568C36 28.9873 36 25.5 36 25.5C36 25.5 36 22.0127 35.52 20.3432ZM22.2154 28.7006V22.2994L28.1708 25.4761L22.2154 28.7006Z" fill="#CE2020"></path></svg>
+                            </a>
+                            <a href="#" class="footer-social__links">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 333334 333334" fill="#fff" fill-rule="evenodd" clip-rule="evenodd"><path d="M166667 0c46023 0 87690 18655 117851 48816s48816 71828 48816 117851-18655 87690-48816 117851-71828 48816-117851 48816-87690-18655-117851-48816S0 212690 0 166667 18655 78977 48816 48816 120644 0 166667 0zm32763 81567c2946 25149 16961 40147 41337 41711v28275c-14141 1393-26515-3262-40935-11933v52853c113 68984-74096 74233-95298 40023-14096-22744-8985-77419 41913-85525v28711c-11889 1959-18334 5610-21865 12361-21818 41722 54283 66545 49024-672V81567l25823 1zm73865-21529c-27287-27287-64987-44165-106628-44165-41642 0-79341 16878-106628 44165s-44165 64987-44165 106628c0 41642 16878 79341 44165 106628s64987 44165 106628 44165c41642 0 79341-16878 106628-44165s44165-64987 44165-106628c0-41642-16878-79341-44165-106628z" fill-rule="nonzero"></path><path d="M198534 75214c2946 25149 18014 42894 42390 44458v23854l-157 15v-20262c-24377-1564-38391-16562-41337-41711l-25823-1v105804c3726 47623-33381 49038-47576 30982 16650 10413 43683 3644 40477-37335V75214h32026zm-69385 175395c-14590-3003-27856-11720-35647-24466-18929-30968-1866-81440 53035-86634l-90 7462c-50899 8107-56009 62781-41913 85525 5435 8770 14358 14939 24615 18113z" fill="#26f4ee"></path><path d="M205929 83159c1678 14320 6946 26780 15670 35146-12253-6339-19648-18395-21964-35148l6294 2zm34838 45249c2077 441 4244 740 6499 884v28276c-14140 1393-26515-3263-40934-11934l2213 48425c0 15617 58 22754-8322 37120-20422 35009-58587 34993-81180 15057 29457 16920 80883 3673 80789-53765v-52853c14420 8672 26794 13326 40935 11933v-23144zm-94320 20438c2957-616 6062-1089 9327-1398v29820c-11889 1959-19440 5609-22970 12361-9944 19013 451 34512 14212 39395-17214-618-34295-18299-22433-40982 3531-6751 9976-10402 21865-12361v-26835z" fill="#fb2c53"></path></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="grid__col-2-4">
+                        <h3 class="footer-title">Sản phẩm</h3>
+                        <ul class="footer-list">
+                            <li class="footer-items">
+                                <a href="./iphone.html" class="footer-items-links">iPhone</a>
+                            </li>
+                            <li class="footer-items">
+                                <a href="./ipad.html" class="footer-items-links">iPad</a>
+                            </li>
+                            <li class="footer-items">
+                                <a href="./mac.html" class="footer-items-links">Mac</a>
+                            </li>
+                            <li class="footer-items">
+                                <a href="./watch.html" class="footer-items-links">Apple Watch</a>
+                            </li>
+                            <li class="footer-items">
+                                <a href="./audio.html" class="footer-items-links">Âm thanh</a>
+                            </li>
+                            <li class="footer-items">
+                                <a href="./acs.html" class="footer-items-links">Phụ kiện</a>
+                            </li>
+                            <li class="footer-items">
+                                <a href="./service.html" class="footer-items-links">Dịch vụ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__col-2-4">
+                        <h3 class="footer-title">Thông tin</h3>
+                        <ul class="footer-list">
+                            <li class="footer-items">
+                                <a href="#" class="footer-items-links">Giới thiệu</a>
+                            </li>
+                            <li class="footer-items">
+                                <a href="#" onclick="window.location.href='https://tin.shopdunk.com/khuyen-mai'" class="footer-items-links">Khuyến mại</a>
+                            </li>
+                            <li class="footer-items">
+                                <a href="#" class="footer-items-links">Bảo hành và sửa chữa</a>
+                            </li>
+                            <li class="footer-items">
+                                <a href="#" class="footer-items-links">Tuyển dụng</a>
+                            </li>
+                            <li class="footer-items">
+                                <a href="#" class="footer-items-links">Tin tức</a>
+                            </li>
+                            <li class="footer-items">
+                                <a href="#" class="footer-items-links">Check IMEI</a>
+                            </li>
+                            <li class="footer-items">
+                                <a href="#" class="footer-items-links">Phương thức thanh toán</a>
+                            </li>
+                            <li class="footer-items">
+                                <a href="#" class="footer-items-links">Gửi góp ý, khiếu nại</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__col-2-4">
+                        <h3 class="footer-title">Chính sách</h3>
+                        <ul class="footer-list">
+                            <li class="footer-items">
+                                <a href="#" onclick="window.location.href='https://tragop.shopdunk.com/'" class="footer-items-links">Trả góp</a>
+                            </li>
+                            <li class="footer-items">
+                                <a href="#" class="footer-items-links">Giao hàng</a>
+                            </li>
+                            <li class="footer-items">
+                                <a href="#" class="footer-items-links">Giao hàng (ZaloPay)</a>
+                            </li>
+                            <li class="footer-items">
+                                <a href="#" class="footer-items-links">Hủy giao dịch</a>
+                            </li>
+                            <li class="footer-items">
+                                <a href="#" class="footer-items-links">Đổi trả</a>
+                            </li>
+                            <li class="footer-items">
+                                <a href="#" class="footer-items-links">Bảo hành</a>
+                            </li>
+                            <li class="footer-items">
+                                <a href="#" class="footer-items-links">Giải quyết khiếu nại</a>
+                            </li>
+                            <li class="footer-items">
+                                <a href="#" class="footer-items-links">Bảo mật thông tin</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__col-2-4">
+                        <h3 class="footer-title">Địa chỉ</h3>
+                        <ul class="footer-list">
+                            <li class="footer-items">
+                                <a href="https://www.google.com/maps/@15.8811606,106.9467396,6z/data=!3m1!4b1!4m3!11m2!2s0Vq6CiZoSh-QELJ3lKHSgQ!3e3" class="footer-items-links">Tìm Store trên Google Map</a>
+                            </li>
+                            <li class="footer-items">
+                                <a href="#" onclick="window.location.href='https://shopdunk.com/dia-chi'" class="footer-items-links">Hệ thống cửa hàng</a>
+                            </li>
+                        </ul>
+                        <h3 class="footer-title">Liên hệ</h3>
+                        <ul class="footer-list">
+                            <li class="footer-items">
+                                <p class="footer-contact">Mua hàng
+                                    <a href="#" class="footer-contact__links">1900.6626</a>
+                                </p>
+                                
+                            </li>
+                            <li class="footer-items">
+                                <p class="footer-contact">Khiếu nại:
+                                    <a href="#" class="footer-contact__links">0886.308.688</a>
+                                </p>
+
+                            </li>
+                            <li class="footer-items">
+                                <p class="footer-contact">Doanh nghiệp & Đối tác:
+                                    <a href="#" class="footer-contact__links">0822.688.668</a>
+                                </p>
+
+                            </li>
+                            <li class="footer-items">
+                                <p class="footer-contact">
+                                    <a href="#" class="footer-contact__links"></a>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom footer-border">
+                    <div class="footer-bottom__content">
+                        <p class="footer-bottom__content-text">© 2016 Công ty Cổ Phần HESMAN Việt Nam GPDKKD: 0107465657 do Sở KH & ĐT TP. Hà Nội cấp ngày 08/06/2016. </p>
+                        <p class="footer-bottom__content-text">Địa chỉ: Số 76 Thái Hà, phường Trung Liệt, quận Đống Đa, thành phố Hà Nội, Việt Nam</p>
+                        <p class="footer-bottom__content-text">Đại diện pháp luật: PHẠM MẠNH HÒA | ĐT: 0247.305.9999 | Email: lienhe@shopdunk.com</p>
+                    </div>
+                    <a href="#" class="footer-bottom__img-contain">
+                        <img src="./img/bo-cong-thuong-1170x780-2.webp" alt="" class="footer-bottom__img">
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <span class="to-top__btn">
+            <i class="fa-solid fa-chevron-up"></i>
+        </span>
+    </div> 
+    <script src="./javaScript/iphone.js"></script>
+</body>
+</html>

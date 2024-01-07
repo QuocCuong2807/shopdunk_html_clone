@@ -1,0 +1,386 @@
+.wrapper {
+    background-color: #F5F5F7;
+}
+
+.header {
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--header-color);
+}
+
+.header__navbar-items {
+
+}
+
+.header__navbar-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-left: 0;
+    justify-content: space-between;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.header__navbar-items {
+    
+}
+
+.header__navbar-items-links {
+    display: block;
+    padding: 22px 15px;
+    color: var(--header-text-color);
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.header__navbar-items-links-icon{
+    display: block;
+    padding: 22px 25px;
+    color: var(--header-text-color);
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.header__navbar-items-links-icon:hover {
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+.header__navbar-items-links:hover {
+    text-decoration: none;
+    color: var(--white-color);
+    background-color: #444;
+}
+
+.header__search-icon{
+    font-size: 1.6rem;
+}
+
+.header__bag-icon{
+    font-size: 1.6rem;
+}
+
+.app {
+    margin-top: 64px;
+}
+
+.slider-img {
+    max-width: 100%;
+}
+
+.advertise-content__link {
+    display: block;
+}
+
+
+.advertise-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.iPhone-content, .tablet-content, .macbook-content, .audio-content,
+.watch-content, .accessory-content, .service-content {
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.iPhone-section, .tablet-section, .macbook-section, .audio-section, .watch-section {
+    padding-bottom: 60px;
+}
+
+.accessory-section {
+    padding-bottom: 20px;
+}
+
+.infor-section {
+    padding: 60px 0;
+    background-color: #F2F2F2;
+}
+
+.infor-container{
+    text-align: center;
+}
+
+.infor-title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--black-color);
+    padding-bottom: 10px;
+}
+.infor-body{
+    font-size: 1.4rem;
+    color: var(--black-color);
+    padding-bottom: 10px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infor-input {
+    width: 30%;
+    background-color: #FFFFFF;
+    border-width: 0px 0px 0px 0px;
+    border-radius: 30px 30px 30px 30px;
+    padding: 10px;
+}
+
+.sign-up__btn {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: var(--white-color);
+    background-color: var(--link-color);
+    padding: 8px 40px;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+
+.sign-up__btn:hover {
+    color: var(--white-color);
+}
+
+footer {
+    background-color: var(--black-color);
+}
+
+.footer-social__links {
+    margin-right: 5px;
+}
+
+.footer-introduce__container {
+    margin-top: 35px;
+}
+
+.footer-introduce {
+    color: var(--header-text-color);
+    margin: 20px 0;
+}
+
+.footer-title {
+    color: var(--header-text-color);
+    margin-top: 40px;
+}
+
+.footer-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-items-links {
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    text-decoration: none;
+    color: var(--footer-text-color);
+}
+
+.footer-items-links::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    background-color: #86868B;
+    transform: scaleX(0);
+    transform-origin: top left;
+    transition: transform 0.4s ease;
+}
+
+.footer-items-links:hover::after {
+    transform: scaleX(1);
+}
+
+.footer-items-links:hover {
+    color: var(--footer-text-color);
+}
+
+.footer-contact{
+    font-size: 1.2rem;
+    padding: 5px 0;
+    color: var(--footer-text-color);
+}
+
+.footer-contact__links{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--link-color);
+}
+
+.footer-separate {
+    padding-bottom: 60px;
+}
+
+.footer-border {
+    border-top: 1px solid var(--footer-text-color);
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom__content {
+    margin-top: 20px;
+}
+
+.footer-bottom__content-text {
+    color: var(--footer-text-color);
+    font-size: 1.2rem;
+}
+
+.footer-bottom__img-contain {
+    margin-top: 20px;
+    text-decoration: none;
+    display: block;
+    width: 10%;
+}
+
+.footer-bottom__img {
+    width: 100%;
+}
+/* iPhone */
+
+.product-filter {
+    padding: 40px 0;
+}
+
+.product-filter-list {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.product-filter-items{
+    margin-right: 20px;
+}
+
+.product-filter-items__links{
+    position: relative;
+    text-decoration: none;
+    font-size: 1.4rem;
+    display: block;
+    color: var(--link-color);
+    cursor: pointer;
+}
+
+.product-description{
+    border-radius: 10px;
+    background-color: var(--white-color);
+}
+
+.product-description__heading {
+    margin-top: 40px;
+    margin-left: 60px;
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+
+.product-description__body {
+    padding: 0 60px;
+    font-size: 1.4rem;
+}
+
+.product-description-list {
+    margin-left: 60px;
+    font-size: 1.2rem;
+    color: #515154;
+}
+
+.product-description__name {
+    padding-left: 60px;
+    font-size: 1.4rem;
+}
+
+.select-container {
+    margin: 30px 0;
+}
+
+#conpatiple-select {
+    padding: 12px 32px 12px 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    background-color: var(--white-color);
+    border: none;
+    color: #484848;
+    width: 100%;
+    display: block;
+}
+
+.acs-filter__container {
+    margin-bottom: 30px;
+    background-color: var(--white-color);
+    padding: 15px;
+    border-radius: 3px;
+}
+
+.acs-filer-radio__list, .acs-filer-checkbox__list {
+    display: flex;
+    align-items: center;
+    margin: 6px;
+}
+
+.radio-input, .checkbox-input {
+    display: block;
+}
+
+.acs-label {
+    font-size: 1.4rem;
+    margin-left: 6px;
+    display: block;
+}
+
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#price-select {
+    padding: 15px 10px 15px 10px;
+    border-radius: 8px;
+    background-color: var(--white-color);
+    border: 1px solid #e1e1e1;
+}
+
+/* filter */
+.filter-active::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    background-color: var(--link-color);
+    display: block;
+}
+
+
+#iPhone13, #iPhone12, #iPhone11, #iPhoneSE,
+#iPad-pro, #iPad-air, #iPad-9, #iPad-mini,
+#mac-pro, #mac-air, #iMac, #mac-mini,
+#watch-7, #watch-6, #watch-se, #watch-3,
+#air-pod, #ear-pod, #beats, #harman-kardon, #jbl,
+#google, #marshall{
+    display: none;
+}
+
+
+#all ,#iPhone13, #iPhone12, #iPhone11, #iPhoneSE,
+#iPad-pro ,#iPad-air, #iPad-9, #iPad-mini,
+#mac-pro, #mac-air, #iMac, #mac-mini,
+#watch-7, #watch-6, #watch-se, #watch-3,
+#air-pod, #ear-pod, #beats, #harman-kardon, 
+#jbl,#google, #marshall {
+    -webkit-animation: slide-down .3s ease-out;
+    -moz-animation: slide-down .3s ease-out;
+    -webkit-animation: slide-down 1s ease-in;
+    -moz-animation: slide-down 1s ease-in;
+}
+
